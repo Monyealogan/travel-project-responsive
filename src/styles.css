@@ -1,0 +1,66 @@
+body{
+    font-family: 'poppins';
+    background-color: black;
+}
+
+header {
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4),rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(/travel-project-responsive/singapore-01.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    padding: 200px;
+    margin: 0 ;
+}
+
+header h1 {
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 1;
+    margin: 30px 0;
+}
+
+header h2 {
+    font-size: 60px;
+    font-weight: 200;
+    line-height: 1.5;
+    margin: 0;
+}
+
+header h3 {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+header a {
+    text-align: center;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    padding: 16px 32px;
+    display: inline-block;
+
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+@media (max-width:900px) {
+    header {
+        padding: 30px;
+
+    }
+    header h1 {
+        font-size: 40px;
+    }
+    header h2 {
+        font-size: 20px;
+    }
+    header h3{
+        font-size: 12px;
+    }
+}
